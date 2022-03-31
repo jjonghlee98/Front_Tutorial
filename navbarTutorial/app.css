@@ -18,21 +18,25 @@ li {
 
 li a, .dropbtn {
   display: inline-block;
-  color: white;
   padding: 14px 16px;
+  color: white;
+}
+
+li:hover {
+  background-color: #4add6d;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 160px;
 }
 
 .dropdown-content a {
-  color: black;
   display: block;
-  padding: 12px 16px;
+  color: black;
+  width: 160px;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
@@ -41,4 +45,9 @@ li a, .dropbtn {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+a.active {
+  background-color: #4add6d;
+
 }
